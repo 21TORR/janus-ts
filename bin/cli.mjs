@@ -51,7 +51,16 @@ program
 
 		result.forEach(entry =>
 		{
-			const log = ["•", kleur.magenta(entry.file)];
+			const log = [" •"];
+
+			if ("package.json" === entry.file)
+			{
+				log.push(kleur.yellow(entry.file));
+			}
+			else
+			{
+				log.push(kleur.magenta(entry.file));
+			}
 
 			if (entry.changed)
 			{

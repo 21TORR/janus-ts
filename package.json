@@ -5,6 +5,8 @@
 		"janus": "bin/cli.mjs"
 	},
 	"dependencies": {
+		"deep-equal-json": "^1.0.0",
+		"deep-extend": "^0.6.0",
 		"fs-extra": "^11.2.0",
 		"glob": "^10.3.10",
 		"inquirer": "^9.2.12",

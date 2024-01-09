@@ -1,9 +1,11 @@
 import {globSync} from "glob";
 import {getLibPath} from "./dir.mjs";
 import {basename, join} from "node:path";
-import {copySync} from "fs-extra/esm";
+import {copySync, readJSONSync, writeJSONSync} from "fs-extra/esm";
 import {readFileSync, existsSync, promises} from "node:fs";
 import {Buffer} from "node:buffer";
+import deepExtend from "deep-extend";
+import deepEqual from "deep-equal-json";
 
 
 export function getSupportedAppTypes ()
@@ -42,6 +44,14 @@ export async function initializeAppType (appType)
 		const targetFilePath = join(targetDir, fileName);
 		let hasChanged = true;
 
+		if (fileName === "package.json")
+		{
+			return {
+				file: fileName,
+				changed: mergePackageJson(sourceFilePath, targetFilePath),
+			};
+		}
+
 		if (existsSync(targetFilePath))
 		{
 			const targetStat = await promises.stat(targetFilePath);
@@ -69,4 +79,31 @@ export async function initializeAppType (appType)
 			changed: true,
 		};
 	}));
+}
+
+
+/**
+ * Merges the package json files
+ *
+ * @param {string} sourcePackageJson
+ * @param {string} targetPackageJson
+ * @return {boolean} whether the file has changed
+ */
+function mergePackageJson (sourcePackageJson, targetPackageJson)
+{
+	const sourceJson = readJSONSync(sourcePackageJson);
+	const targetJson = readJSONSync(targetPackageJson);
+
+	const updatedTargetJson = deepExtend({}, targetJson, sourceJson);
+
+	if (deepEqual(targetJson, updatedTargetJson))
+	{
+		return false;
+	}
+
+	writeJSONSync(targetPackageJson, updatedTargetJson, {
+		spaces: "\t",
+	});
+
+	return true;
 }
