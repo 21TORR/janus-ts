@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"lint": "next lint && $npm_execpath run lint:ts-cs",
+		"lint:ts-cs": "dprint check"
+	},
+	"devDependencies": {
+		"dprint": "^0.45.0"
+	}
+}

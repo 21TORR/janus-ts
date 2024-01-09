@@ -1,0 +1,5 @@
+{
+	"extends": [
+		"./node_modules/@21torr/janus/dprint/app.json"
+	]
+}

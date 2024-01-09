@@ -1,0 +1,41 @@
+{
+	"lineWidth": 120,
+	"useTabs": true,
+	"typescript": {
+		"bracePosition": "nextLine",
+		"jsx.bracketPosition": "nextLine",
+		"jsx.multiLineParens": "prefer",
+		"nextControlFlowPosition": "nextLine",
+		"operatorPosition": "maintain",
+		"preferHanging": false,
+		"quoteProps": "asNeeded",
+		"quoteStyle": "preferDouble",
+		"semiColons": "always",
+		"exportDeclaration.sortNamedExports": "maintain",
+		"importDeclaration.sortNamedImports": "maintain",
+		"tupleType.spaceAround": false,
+		"typeAnnotation.spaceBeforeColon": false,
+		"functionDeclaration.spaceBeforeParentheses": true,
+		"functionExpression.spaceBeforeParentheses": true,
+		"getAccessor.spaceBeforeParentheses": true,
+		"method.spaceBeforeParentheses": true,
+		"setAccessor.spaceBeforeParentheses": true,
+		"exportDeclaration.spaceSurroundingNamedExports": false,
+		"importDeclaration.spaceSurroundingNamedImports": false,
+		"spaceSurroundingProperties": false,
+		"module.sortExportDeclarations": "maintain",
+		"module.sortImportDeclarations": "maintain",
+		"useBraces": "always",
+		"arrowFunction.useParentheses": "preferNone"
+	},
+	"json": {},
+	"excludes": [
+		"**/.next",
+		"**/node_modules",
+		"**/*-lock.json"
+	],
+	"plugins": [
+		"https://plugins.dprint.dev/json-0.19.1.wasm",
+		"https://plugins.dprint.dev/typescript-0.88.7.wasm"
+	]
+}
