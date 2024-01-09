@@ -14,7 +14,7 @@ pnpm add -D @21torr/janus
 
 You can automatically initialize all config files in your app, by just running:
 
-```json
+```bash
 pnpm janus init [app-type]
 ```
 
