@@ -3,28 +3,7 @@ Janus TS
 
 This repository contains all config files and tools for code style tools, formatters and linters for TS / JS / SCSS / CSS.
 
-
-## Installation
-
-```bash
-pnpm add -D @21torr/janus
-```
-
-## Integration
-
-You can automatically initialize all config files in your app, by just running:
-
-```bash
-pnpm janus init [app-type]
-```
-
-This will copy all config files to your project and add required packages.
-If any of the files changed, you should run the lint fixers + `pnpm i` afterwards.
-
-You can currently initialize the following app types:
-
-- `next-js`
-- `library`
+> 📚 [**Read the docs**](https://21torr-docs.pages.dev/docs/ts-scss/janus-ts/)
 
 
 ## Contributing
