@@ -1,3 +1,9 @@
+2.0.1
+=====
+
+* (improvement) Loosen a restriction on `explicit-module-boundary-types` in ESLint.
+
+
 2.0.0
 ======
 

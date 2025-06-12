@@ -145,7 +145,8 @@ export default [
 			"@typescript-eslint/explicit-function-return-type": "off",
 			//  └> covered by: @typescript-eslint/explicit-module-boundary-types
 			"@typescript-eslint/explicit-member-accessibility": "error",
-			"@typescript-eslint/explicit-module-boundary-types": "error",
+			// disable, as don't want it all the time
+			"@typescript-eslint/explicit-module-boundary-types": "off",
 			"@typescript-eslint/max-params": ["warn", {
 				max: 6,
 			}],
