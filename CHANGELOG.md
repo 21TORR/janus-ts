@@ -1,3 +1,9 @@
+2.0.2
+=====
+
+* (improvement) Bump dprint plugin versions.
+
+
 2.0.1
 =====
 
