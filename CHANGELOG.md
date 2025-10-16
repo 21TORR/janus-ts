@@ -1,3 +1,9 @@
+2.0.3
+=====
+
+* (improvement) Also allow `thead` and `tbody` as type selector in Stylelint.
+
+
 2.0.2
 =====
 
