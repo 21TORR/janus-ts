@@ -1,10 +1,13 @@
-2.0.4
+2.1.0
 =====
 
 * (improvement) Bump dependencies in both initial `package.json`.
 * (bug) Add missing `prettier-package-json` in both initial `package.json`.
 * (improvement) Update in both initial `package.json` the minimum node version to 22.
 * (improvement) Add new dev folder of next and `.mts` in initial `tsconfig.json`.
+* (feature) Update `@next/eslint-plugin-next` to v16.
+* (feature) Update `eslint-plugin-storybook` to v10.
+* (improvement) Bump dependencies.
 
 
 2.0.3
