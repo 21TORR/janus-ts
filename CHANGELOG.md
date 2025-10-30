@@ -8,6 +8,7 @@
 * (feature) Update `@next/eslint-plugin-next` to v16.
 * (feature) Update `eslint-plugin-storybook` to v10.
 * (improvement) Bump dependencies.
+* (improvement) Bump dprint plugin versions.
 
 
 2.0.3
