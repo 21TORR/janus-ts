@@ -4,6 +4,7 @@
 * (improvement) Bump dependencies in both initial `package.json`.
 * (bug) Add missing `prettier-package-json` in both initial `package.json`.
 * (improvement) Update in both initial `package.json` the minimum node version to 22.
+* (improvement) Add new dev folder of next and `.mts` in initial `tsconfig.json`.
 
 
 2.0.3
