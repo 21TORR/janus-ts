@@ -42,6 +42,14 @@ export default {
 		// Max & Min
 		"max-nesting-depth": 4,
 
+		// nesting
+		"nesting-selector-no-missing-scoping-root": [
+			true,
+			{
+				ignoreAtRules: ["mixin"],
+			},
+		],
+
 		// Rule
 		"rule-empty-line-before": ["always-multi-line", {
 			"except": [
