@@ -1,3 +1,9 @@
+2.1.2
+=====
+
+* (improvement) Bump dprint dependencies. 
+
+
 2.1.1
 =====
 
