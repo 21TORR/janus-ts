@@ -23,32 +23,32 @@
 		"test:stylelint": "stylelint --config tests/stylelint/.stylelintrc.yml 'tests/stylelint/*.{scss,css}' --color"
 	},
 	"dependencies": {
-		"@eslint/eslintrc": "^3.3.1",
-		"@eslint/js": "^9.38.0",
-		"@next/eslint-plugin-next": "^16.0.1",
+		"@eslint/eslintrc": "^3.3.3",
+		"@eslint/js": "^9.39.2",
+		"@next/eslint-plugin-next": "^16.1.6",
 		"deep-equal-json": "^1.0.1",
 		"deep-extend": "^0.6.0",
-		"eslint-plugin-jsdoc": "^61.1.11",
+		"eslint-plugin-jsdoc": "^62.4.1",
 		"eslint-plugin-jsx-a11y": "^6.10.2",
 		"eslint-plugin-react": "^7.37.5",
 		"eslint-plugin-react-hooks": "^7.0.1",
-		"eslint-plugin-storybook": "^10.0.1",
-		"fs-extra": "^11.3.2",
-		"glob": "^11.0.3",
-		"globals": "^16.4.0",
-		"inquirer": "^12.10.0",
+		"eslint-plugin-storybook": "^10.2.1",
+		"fs-extra": "^11.3.3",
+		"glob": "^13.0.0",
+		"globals": "^17.2.0",
+		"inquirer": "^13.2.2",
 		"kleur": "^4.1.5",
 		"postcss-scss": "^4.0.9",
 		"sade": "^1.8.1",
-		"stylelint-config-standard": "^39.0.1",
-		"stylelint-scss": "^6.12.1",
-		"typescript-eslint": "^8.46.2"
+		"stylelint-config-standard": "^40.0.0",
+		"stylelint-scss": "^7.0.0",
+		"typescript-eslint": "^8.54.0"
 	},
 	"devDependencies": {
-		"eslint": "^9.38.0",
+		"eslint": "^9.39.2",
 		"prettier-package-json": "^2.8.0",
-		"publint": "^0.3.15",
-		"stylelint": "^16.25.0"
+		"publint": "^0.3.17",
+		"stylelint": "^17.0.0"
 	},
 	"publishConfig": {
 		"access": "public"
