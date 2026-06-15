@@ -1,3 +1,9 @@
+2.1.6
+=====
+
+* (internal) Explicitly fetch the git version when releasing.
+
+
 2.1.5
 =====
 

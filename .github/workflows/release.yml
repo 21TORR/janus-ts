@@ -16,6 +16,9 @@ jobs:
         steps:
             -   name: Checkout Code
                 uses: actions/checkout@v6
+                with:
+                    fetch-depth: 0
+                    fetch-tags: true
 
             -   uses: actions/setup-node@v6
                 with:
@@ -28,7 +31,7 @@ jobs:
                         recursive: false
 
             -   name: Set version number in package.json
-                run: pnpm version from-git --no-git-tag-version
+                run: pnpm version $(git describe --tags --abbrev=0) --no-git-tag-version
 
             -   name: Run Build
                 run: pnpm run prepare-release
