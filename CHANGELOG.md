@@ -1,3 +1,9 @@
+2.1.8
+=====
+
+* (internal) Disable git checks when publishing.
+
+
 2.1.7
 =====
 
