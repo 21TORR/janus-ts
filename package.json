@@ -1,5 +1,6 @@
 {
 	"name": "@21torr/janus",
+	"version": "1.0.0-to-be-replaced",
 	"description": "All config files and tools for code style tools, formatters and linters for TS / JS / SCSS / CSS.",
 	"license": "MIT",
 	"homepage": "https://github.com/21TORR/janus-ts",
@@ -19,7 +20,7 @@
 		"prepare-release": "npm pack --dry-run && publint",
 		"test": "pnpm run /^test:.*/",
 		"test:eslint-nextjs": "eslint --config tests/next-js/eslint.config.mjs tests/next-js/test.ts",
-		"test:publint": "pnpm version '1.0.0-dummy' --no-git-tag-version && npm pack --dry-run && publint",
+		"test:publint": "npm pack --dry-run && publint",
 		"test:stylelint": "stylelint --config tests/stylelint/.stylelintrc.yml 'tests/stylelint/*.{scss,css}' --color"
 	},
 	"dependencies": {
