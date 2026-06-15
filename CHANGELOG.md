@@ -1,3 +1,9 @@
+2.1.9
+=====
+
+* (internal) Properly set OIDC permissions.
+
+
 2.1.8
 =====
 
