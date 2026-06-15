@@ -1,3 +1,9 @@
+2.1.7
+=====
+
+* (improvement) Use `pnpm publish` instead of github action.
+
+
 2.1.6
 =====
 
