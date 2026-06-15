@@ -1,3 +1,9 @@
+2.1.3
+=====
+
+* (improvement) Allow `context`, `ctx`, `options` and `opts` as unused variable name.
+
+
 2.1.2
 =====
 

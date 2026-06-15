@@ -1,4 +1,4 @@
-import eslint21TORR from "@21torr/janus/eslint/base.mjs";
+import eslint21TORR from "../../eslint/base.mjs";
 
 export default [
 	...eslint21TORR,
