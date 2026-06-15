@@ -157,7 +157,7 @@ export default [
 			"@typescript-eslint/no-loop-func": "error",
 			"@typescript-eslint/no-non-null-assertion": "off",
 			"@typescript-eslint/no-unused-vars": ["warn", {
-				argsIgnorePattern: 'props',
+				argsIgnorePattern: '^(context|ctx|options|opts|props)$',
 			}],
 			"@typescript-eslint/no-use-before-define": "off",
 			//  └> false positives with named exports, even with `allowNamedExports: true`
