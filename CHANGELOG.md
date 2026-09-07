@@ -1,3 +1,9 @@
+2.1.10
+=====
+
+* (bug) Add `at-rule-prelude-no-invalid` exception for SCSS `@function`/`@mixin` in `stylelint/base.config.mjs`.
+
+
 2.1.9
 =====
 
