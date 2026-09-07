@@ -1,5 +1,3 @@
-console.log();
-
 /** @type {import("stylelint").Config} */
 export default {
 	extends: [
@@ -17,6 +15,10 @@ export default {
 		// Disable the rule from CSS and enable it from SCSS
 		"at-rule-no-unknown": null,
 		"scss/at-rule-no-unknown": true,
+		// "media" repeats the default from stylelint-config-recommended.
+		"at-rule-prelude-no-invalid": [true, {
+			ignoreAtRules: ["media", "function", "mixin"],
+		}],
 		"at-rule-empty-line-before": ["always", {
 			except: [
 				"blockless-after-same-name-blockless",
