@@ -14,11 +14,11 @@
 		"test:typescript": "tsc --noEmit --diagnostics"
 	},
 	"devDependencies": {
-		"dprint": "^0.51.1",
-		"eslint": "^9.39.2",
+		"dprint": "^0.65.0",
+		"eslint": "^10.15.0",
 		"prettier-package-json": "^2.8.0",
 		"stylelint": "^18.1.0",
-		"typescript": "^5.9.3"
+		"typescript": "^7.0.2"
 	},
 	"engines": {
 		"node": ">=24"
