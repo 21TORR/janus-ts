@@ -41,15 +41,15 @@
 		"kleur": "^4.1.5",
 		"postcss-scss": "^4.0.9",
 		"sade": "^1.8.1",
-		"stylelint-config-standard": "^40.0.0",
-		"stylelint-scss": "^7.0.0",
+		"stylelint-config-standard": "^41.1.0",
+		"stylelint-scss": "^7.5.0",
 		"typescript-eslint": "^8.54.0"
 	},
 	"devDependencies": {
 		"eslint": "^9.39.2",
 		"prettier-package-json": "^2.8.0",
 		"publint": "^0.3.17",
-		"stylelint": "^17.0.0"
+		"stylelint": "^18.1.0"
 	},
 	"publishConfig": {
 		"access": "public"
