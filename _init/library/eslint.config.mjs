@@ -1,6 +1,7 @@
+import {defineConfig} from "eslint/config";
 import eslint21TORR from "../../eslint/base.mjs";
 
-export default [
+export default defineConfig([
 	...eslint21TORR,
 	{
 		name: "App Settings",
@@ -11,4 +12,11 @@ export default [
 			},
 		},
 	},
-];
+	{
+		settings: {
+			react: {
+				version: "19",
+			},
+		},
+	},
+]);
