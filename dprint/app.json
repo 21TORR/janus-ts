@@ -46,8 +46,8 @@
 		"**/storybook-static"
 	],
 	"plugins": [
-		"https://plugins.dprint.dev/json-0.21.1.wasm",
-		"https://plugins.dprint.dev/typescript-0.95.13.wasm",
-		"https://plugins.dprint.dev/prettier-0.62.0.json@80fefd1450bfd3f469590cc6a3f40f6ace26974f948b9602124f486036fbdfab"
+		"npm:@dprint/json@0.26.0",
+		"npm:@dprint/typescript@0.101.0",
+		"npm:@dprint/prettier@0.73.1"
 	]
 }
