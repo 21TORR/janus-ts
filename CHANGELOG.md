@@ -1,3 +1,9 @@
+2.2.1
+=====
+
+* (improvement) Bump ESLint to v10.
+
+
 2.2.0
 =====
 
