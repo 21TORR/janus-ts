@@ -3,6 +3,7 @@
 	"useTabs": true,
 	"prettier": {
 		"associations": [
+			"!**/*",
 			"**/*.{css,scss}"
 		],
 		"parser": "scss",
@@ -18,7 +19,7 @@
 		"preferHanging": false,
 		"quoteProps": "asNeeded",
 		"quoteStyle": "preferDouble",
-		"semiColons": "always",
+		"semicolons": "always",
 		"exportDeclaration.sortNamedExports": "maintain",
 		"importDeclaration.sortNamedImports": "maintain",
 		"tupleType.spaceAround": false,

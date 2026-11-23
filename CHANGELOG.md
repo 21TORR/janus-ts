@@ -1,3 +1,10 @@
+2.2.3
+=====
+
+* (bug) Fix dprint config for current dprint and TypeScript plugin versions. Requires dprint 0.64+, which is set automatically when running janus.
+* (bug) Only format CSS / SCSS files with the prettier dprint plugin.
+
+
 2.2.2
 =====
 
