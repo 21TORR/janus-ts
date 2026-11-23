@@ -1,3 +1,10 @@
+2.2.0
+=====
+
+* (improvement) Update Stylelint to v18.
+* (improvement) Require Node.js 24 in init templates.
+
+
 2.1.10
 =====
 
