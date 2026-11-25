@@ -1,8 +1,5 @@
 {
 	"extends": "@21torr/janus/tsconfig/library.json",
-	"compilerOptions": {
-		"baseUrl": "."
-	},
 	"include": [
 		"**/*.ts",
 		"**/*.tsx"

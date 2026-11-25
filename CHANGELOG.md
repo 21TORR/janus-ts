@@ -1,3 +1,9 @@
+2.2.5
+=====
+
+* (bug) Remove deprecated `baseUrl` from the initial `tsconfig.json` files.
+
+
 2.2.4
 =====
 
