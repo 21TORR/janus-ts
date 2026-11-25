@@ -3,6 +3,7 @@
 
 * (bug) Disable `packageJson.applyConventions` in dprint, as it conflicts with the key order of `prettier-package-json`.
 * (bug) Use TypeScript v6 in init templates, as `typescript-eslint` doesn't support v7 yet.
+* (improvement) Bump `glob`, `inquirer` and `eslint-plugin-jsdoc` to the latest major versions.
 
 
 2.2.3
