@@ -38,7 +38,8 @@
 		"arrowFunction.useParentheses": "preferNone"
 	},
 	"json": {
-		"trailingCommas": "jsonc"
+		"trailingCommas": "jsonc",
+		"packageJson.applyConventions": false
 	},
 	"excludes": [
 		"**/.next",

@@ -1,3 +1,9 @@
+2.2.4
+=====
+
+* (bug) Disable `packageJson.applyConventions` in dprint, as it conflicts with the key order of `prettier-package-json`.
+
+
 2.2.3
 =====
 
