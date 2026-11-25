@@ -1,7 +1,6 @@
 {
 	"extends": "@21torr/janus/tsconfig/next-js.json",
 	"compilerOptions": {
-		"baseUrl": ".",
 		"paths": {
 			"@/*": [
 				"./src/*"
